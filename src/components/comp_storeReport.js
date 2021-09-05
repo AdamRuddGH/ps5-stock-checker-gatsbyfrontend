@@ -5,7 +5,7 @@ function StoreReport({storeName="No name", digital, disc}) {
     const discCode = disc ? <li className="green"><a href={`${disc}`} alt={ `Get the digital PS5 from ${storeName}` }>{storeName} - disc Edition (In stock)</a></li> : <li className="grey">{storeName} - disc edition (out of stock)</li>
 
     return (
-        <div>
+        <div className="store_link">
             {digitalCode}
             {discCode}
         </div>
