@@ -1,0 +1,15 @@
+{
+    "timestamp": "2021-09-01 T21:00:01",
+    "target": {
+        "disc": "https://google.com",
+        "digital": null
+    },
+    "bigw": {
+        "disc": null,
+        "digital": null
+    },
+    "amazon": {
+        "disc": null,
+        "digital": null
+    }
+}

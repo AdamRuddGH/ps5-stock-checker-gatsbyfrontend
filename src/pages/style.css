@@ -1,0 +1,97 @@
+:root {
+    background-color: rgb(238, 243, 247);
+    
+    font-family: "Roboto";
+    font-size: .9em;
+
+    color:rgb(51, 51, 51);
+
+}
+
+h1{
+    letter-spacing: .34rem;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-weight: 900;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-position: center;
+    width: 100%;
+}
+
+.innerbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    border-radius: 15px;
+    /* border:  red solid; */
+    background-color: rgb(255, 255, 255);
+    margin: 4em 0 1em 0;
+    padding: 1em 3em;
+    text-align: center;
+    color:rgb(87, 87, 87);
+    
+}
+
+.status{
+    color:rgb(50, 50, 50);
+}
+
+.green {
+    color: seagreen;
+}
+
+.grey {
+    color: rgb(179, 179, 179);
+}
+
+.donations {
+    text-align: center;
+    color:rgb(116, 116, 116);
+    font-size: small;
+}
+
+li {
+    font-size: large;
+    text-transform: uppercase;
+    margin: .5em;
+    list-style:none;
+    
+}
+
+a:link {
+    color: seagreen;
+    color: white;
+    letter-spacing: 3px;
+    background-color: seagreen;
+    border-radius: 5px;
+    padding: .1em 1.6em;
+    text-decoration: none;
+}
+
+.spacer {
+    margin: 3em 0 4em;
+}
+
+.discord_table_wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    text-align: left;
+    align-items: center;
+    
+}
+
+.discord_logo {
+    flex: 1;
+}
+
+.discord_text {
+    flex: 3;
+}
